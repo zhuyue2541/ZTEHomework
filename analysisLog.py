@@ -26,4 +26,10 @@ ti=changeTime.read().splitlines()
 f.write("\nchange time is:\n")
 for a in ti:
 	f.write(a+'\n')	
+#description
+description=os.popen('''git log -3 --pretty="%s" ''')
+de=description.read().splitlines()
+f.write("\ndescription is:\n")
+for a in de:
+	f.write(a+'\n')	
 f.close()
