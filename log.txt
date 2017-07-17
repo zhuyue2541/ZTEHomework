@@ -1,0 +1,24 @@
+author name is:
+zhuyue
+zhuyue
+zhuyue
+
+email is:
+zhuyue2541@outlook.com
+zhuyue2541@outlook.com
+zhuyue2541@outlook.com
+
+commit is:
+796bc466e04ba825d398d24c7d29dd14dc5ec044
+264c44d4aa14f2809873982abf62325ed5693bb4
+78ecf04a89565fa746b4eebb51508dac799f5e89
+
+change time is:
+Mon Jul 17 12:27:40 2017 +0800
+Mon Jul 17 12:19:55 2017 +0800
+Mon Jul 17 12:10:25 2017 +0800
+
+description is:
+python realize get description
+python realize get time
+python realize get commit
