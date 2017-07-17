@@ -20,4 +20,10 @@ co=commit.read().splitlines()
 f.write("\ncommit is:\n")
 for a in co:
 	f.write(a+"\n")	
+#time
+changeTime=os.popen('''git log -3 --pretty="%ad" ''')
+ti=changeTime.read().splitlines()
+f.write("\nchange time is:\n")
+for a in ti:
+	f.write(a+'\n')	
 f.close()
