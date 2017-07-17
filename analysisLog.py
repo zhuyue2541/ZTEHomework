@@ -25,7 +25,7 @@ try:
 	else:
 		print "error:can not get email "		
 except:
-	print "can not get email"		
+	print "can not get email"
 #commit
 try:
 	commit=os.popen('''git log -3 --pretty="%H" ''')	
@@ -38,11 +38,12 @@ try:
 	else:
 		print "error:can not get commit number"	
 except:
-	print "error:can not get commit number"		
+	print "error:can not get commit number"
 #time
 try:
 	changeTime=os.popen('''git log -3 --pretty="%ad" ''')
 	ti=changeTime.read().splitlines()
+<<<<<<< HEAD
 	if len(ti)!=0:
 		print ti
 		f.write("\nchange time is:\n")
@@ -51,7 +52,7 @@ try:
 	else:
 		print "error:can not get time"
 except:
-	print "error:can not get time"			
+	print "error:can not get time"	
 #description
 try:
 	description=os.popen('''git log -3 --pretty="%s" ''')
@@ -65,5 +66,5 @@ try:
 		print "error:can not get commit description"
 except:
 	print "error:can not get commit description"			
-finally:	
+finally:
 	f.close()
